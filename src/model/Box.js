@@ -9,8 +9,7 @@ const Box = new mongosso.Schema({
 },
 {
  timestamps: true
-}
-);
+});
 
 
 module.exports = mongosso.model('Box', Box)
