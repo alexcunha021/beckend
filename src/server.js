@@ -15,7 +15,7 @@ io.on('connection', socket => {
     })
 })
 
-mongoose.connect('mongodb+srv://alexcunha:alexcunhadev@cluster0-pv31b.mongodb.net/omnistack?retryWrites=true&w=majority', { useNewUrlParser: true})
+mongoose.connect('conexão com mongo', { useNewUrlParser: true})
 //Use cadastra um modulo dentro do express
 // express.json() ajuda o servidor a entender as requisições que estao vindo em formato json
 
